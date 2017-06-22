@@ -60,7 +60,7 @@ def make_response(mod_value, value, bounds):
 def fizz(num):
     return make_response(3, int(num), range(1, 500))
 
-abs
+
 @app.route('/buzz/<num>')
 def buzz(num):
     return make_response(5, int(num), range(1, 500))
